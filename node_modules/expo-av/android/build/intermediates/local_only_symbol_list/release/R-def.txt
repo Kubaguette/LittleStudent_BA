@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_fullscreen_32dp
+drawable ic_fullscreen_exit_32dp
+id current_time_text
+id end_time_text
+id fast_forward_button
+id fullscreen_mode_button
+id play_button
+id rewind_button
+id seek_bar
+id skip_next_button
+id skip_previous_button
+layout expo_media_controller
+string default_media_controller_time
+string enter_fullscreen_mode
+string exit_fullscreen_mode

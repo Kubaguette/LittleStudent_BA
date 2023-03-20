@@ -1,0 +1,51 @@
+https://www.npmjs.com/package/react-native-video
+
+react-native start
+npm run android
+
+orange color: "tomato"
+blue color standart: "#5aa7de"
+blue color darker: "#7dbae5"
+
+
+
+
+Infos about the app:
+
+Increased memory size of async storage to 100MB
+
+used modules:
+npm install @react-native-picker/picker --save
+
+
+
+
+
+
+current format:
+- library: coursename, courseID, percentagedone
+- single modules: coursename, courseID, cards[], ...
+
+how to access:
+    Library: with "CourseLibrary" key
+    CourseData of one course: key of this course
+
+
+
+
+how errors are saved:
+
+"currentMistakes": Array [
+    Object {
+      "answer": "24",
+      "mistakeCounter": 1,
+      "q1": "How old is Kuba?",
+      "type": "Q&A",
+    },
+  ],
+
+
+
+
+  cd android
+  ./gradlew bundleRelease
